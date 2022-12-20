@@ -1,0 +1,148 @@
+Assisgnment 1
+
+1) w.a.p in java language to find out gretest number among three numbers
+where numbers are take as command line argument
+
+
+2) W.A.P  in java  language  to find out factorial value of a number where  numbers is given as command line argument
+
+
+3) w.a.p in java language to araange all strings in alphabet order where strings are given as command line arregument
+
+Assingnment 2
+
+1) Define a class ArrayList and its  members are :
+	a)variables:
+		i) int arr[] reference variable
+		ii)int size
+	both variable members are static.
+	b) Create a static block  which initializes the size if the array and reserves space for array.
+	c)Define static method for following operations
+		i) input() for filloinf array
+		ii) output() displaying elements in array
+		iii) search() for searching an item in array
+		iv) Sort() for arranging all element in array in ascending order.
+	Define a class ArrayDemo which contains main() which can access all the methods defined in Arraylist class.
+	Write a menu driven program
+	1)input
+	2)output
+	3)search
+	4)Sort
+	0)exit	
+2) Define a class StackList which contains following variables and methods. All variables and methods are non static.
+   variables are: top, size & st[]
+   methods are: 
+	i) set() which initializes top,size and st
+	ii) push()
+	iii)pop()
+	iv)display()
+	Now create a another class stackaDemo which contains main(). the main() access all these methods defined in StackList.
+	Write a menu driven program to implement the following operations -
+	1) push()
+	2) pop()
+	3)display()
+	0)exit	
+
+Assignment 3:
+	Define a class pattern in c++.
+	Data members in pattern class is :-
+	a. n= number of lines.
+	Methods/patterns in class are:
+	a. set() to initialize the value of n
+	b. pattern() prints the following 3 patterns in a menu driven program:
+	*
+	**
+	***
+	****
+	.
+	.
+	.
+
+	*
+	* *
+	* * *
+	* * * *
+	.
+	.
+	.
+
+	*
+	* *
+	* * *
+	* *
+	*
+	Write a menu driven program to do the following operations:-
+	INPUT | OPERATION
+	1       pattern1()
+	2       pattern2()
+	3       pattern3()
+	0       exit
+Assignment 4:
+1)	Overload  "+" & "*" operators  for matrix addition and multiplication when each matrix is an object userdefined class  "Matrix"
+2)	Overload  "+" & "*" operators  for matrix addition and multiplication using friend functions when each matrix is an object userdefined class  "Matrix"
+
+	Friend function:-
+	It is a non member function which can access the private members defined in class which it is friend.
+Assignment 5:
+
+1)  Create a class student attrubutes are name roll & average marks (all are private)
+	Create another class studentlist attributes are 
+		1) List[] of array of student class
+		2) size -> no of student object
+	Methods are
+		1) input() -> storing details of all student rrecord
+		2) output()
+		3) search() -> base on roll number
+		4) sort all records according to their name
+		5) add()
+		6) remove()
+
+Assignment 6:
+
+1) 	Define a class Employee. The attributes are
+		1)Name
+		2)Age
+		3)Salary
+	Define a class Employee_list that contains a set of methods operate this variable like 
+		display all records
+		search a particular record
+		initialize all records etc
+	Here all employee records should be maintained by linked list
+
+Assignment 7:
+1)	Define a class student. The attributes are:
+		1)Name
+		2)Roll
+		3)dept
+		4)avgmarks 
+	and methods are
+		1)constructor
+		2)add
+		3)show
+		4)remove
+		5)search
+	Now define 3 classes extends student class the subclass are:
+	CSE_list, IT_List, ECE_list
+	Each of these classes contains a list of student objects.
+
+18/11/2022
+	1)	Write a java to implement multiple inheritance.
+	2)	Write a program to display different types of access control in opp.
+25/11/2022
+	1) 	Define the following two classes in package p1:-
+		a. Array class- input(), output().
+		b. Linked list class- create(), display().
+		Use array class and linked list class from different packages.
+	2)	Define user defined exception classes:
+		a. OverflowException.
+		b. UnderflowException.
+		Define push() and pop(). When the arrray representation of stack is overflow, then push() throws OverflowExceptionObject
+		and when stack is underflow then pop() throws UnderflowExceptionObject.
+12/9/2022
+	1)Create multi-threads to :
+		1)generate all even number b/w 1 to n.
+		2)generate all odd number b/w 1 to n.
+		3)generate all n fibonacci numbers.
+		4)generate all prime numbers b/w 1 to n.
+	2)Implement thread synchronization.
+	3)Implement producer and consumer problem.
